@@ -1,6 +1,6 @@
 title: Technical Knowledge Base
 description: A collection of technical articles and guides
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # Build settings
 markdown: kramdown
@@ -8,6 +8,7 @@ markdown: kramdown
 # GitHub Pages specific
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 
 relative_links:
   enabled: true
