@@ -1,0 +1,14 @@
+title: Technical Knowledge Base
+description: A collection of technical articles and guides
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+
+# GitHub Pages specific
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
