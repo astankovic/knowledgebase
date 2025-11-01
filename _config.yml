@@ -1,6 +1,6 @@
 title: Technical Knowledge Base
 description: A collection of technical articles and guides
-theme: jekyll-theme-minimal
+theme: just-the-docs
 
 # Build settings
 markdown: kramdown
