@@ -2,7 +2,7 @@
   "name": "Knowledge Base",
   "description": "Technical documentation for JavaScript, Node.js, and ADMS (Advanced Distribution Management System)",
   "baseUrl": "https://raw.githubusercontent.com/astankovic/knowledgebase/main",
-  "lastUpdated": "2026-02-05T01:04:23.299Z",
+  "lastUpdated": "2026-02-05T03:14:37.286Z",
   "docs": [
     {
       "title": "Introduction to ADMS in EcoStruxure",
@@ -322,6 +322,74 @@
         "rest api",
         "microservices"
       ]
+    },
+    {
+      "title": "Demand Response Groups Forecasts in ADMS",
+      "slug": "demand-response-groups-forecasts",
+      "path": "docs/adms/forecasting/demand-response-groups-forecasts.md",
+      "description": "Set up demand response groups in NMS to forecast and simulate load reductions or adjustments, mapping DR resources to groups for scenario-based power flow analysis.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "demand response groups",
+        "ADMS",
+        "DER forecasts",
+        "NMS",
+        "PF_DEMAND_RESPONSE_FORECAST",
+        "distributed energy resources",
+        "DR groups"
+      ],
+      "headings": [
+        "Overview",
+        "Configuration",
+        "Forecasting"
+      ],
+      "created": "2026-02-05T03:14:37.286Z",
+      "updated": "2026-02-05T03:14:37.286Z"
+    },
+    {
+      "title": "Weather Zone Forecasts for DER in ADMS",
+      "slug": "der-weather-zone-forecasts",
+      "path": "docs/adms/forecasting/der-weather-zone-forecasts.md",
+      "description": "Learn how to configure weather zones in NMS for forecasting weather-affected DER resources like PV and wind, including profile selection and temperature adjustments for loads.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "weather zones",
+        "ADMS",
+        "DER forecasts",
+        "NMS",
+        "PF_WEATHER_ZONE",
+        "distributed energy resources"
+      ],
+      "headings": [
+        "Overview",
+        "Configuration",
+        "Forecasting"
+      ],
+      "created": "2026-02-05T03:14:37.286Z",
+      "updated": "2026-02-05T03:14:37.286Z"
+    },
+    {
+      "title": "Forecasting Large Scale Utility DERs in ADMS",
+      "slug": "large-scale-utility-der-forecasts",
+      "path": "docs/adms/forecasting/large-scale-utility-der-forecasts.md",
+      "description": "Configure and forecast large-scale, weather-independent DER units like diesel generators or batteries in NMS, providing individual unit predictions for enhanced power flow accuracy.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "large scale DER",
+        "ADMS",
+        "DER forecasts",
+        "NMS",
+        "PF_DER_FORECAST",
+        "distributed energy resources",
+        "utility DER"
+      ],
+      "headings": [
+        "Overview",
+        "Configuration",
+        "Forecasting"
+      ],
+      "created": "2026-02-05T03:14:37.286Z",
+      "updated": "2026-02-05T03:14:37.286Z"
     },
     {
       "title": "Demand Response Groups in ADMS",
