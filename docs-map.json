@@ -2,7 +2,7 @@
   "name": "Knowledge Base",
   "description": "Technical documentation for JavaScript, Node.js, and ADMS (Advanced Distribution Management System)",
   "baseUrl": "https://raw.githubusercontent.com/astankovic/knowledgebase/main",
-  "lastUpdated": "2026-02-05T05:21:49.591Z",
+  "lastUpdated": "2026-02-05T05:30:29.773Z",
   "docs": [
     {
       "title": "Introduction to ADMS in EcoStruxure",
@@ -324,6 +324,26 @@
       ]
     },
     {
+      "title": "Demand Response Groups in ADMS",
+      "slug": "demand-response-groups-in-adms",
+      "path": "docs/adms/forecasting/demand-response-groups-in-adms.md",
+      "description": "Setup and forecasting for demand response groups in NMS, including mapping resources, profile usage, and integration with external systems via adapters.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "demand response groups",
+        "ADMS",
+        "NMS",
+        "DR profiles",
+        "PF_DEMAND_RESPONSE_FORECAST",
+        "DERMS adapter"
+      ],
+      "headings": [
+        "Demand Response Groups"
+      ],
+      "created": "2026-02-05T05:30:29.773Z",
+      "updated": "2026-02-05T05:30:29.773Z"
+    },
+    {
       "title": "Demand Response Groups in NMS",
       "slug": "demand-response-groups-nms",
       "path": "docs/adms/forecasting/demand-response-groups-nms.md",
@@ -342,6 +362,26 @@
       ],
       "created": "2026-02-05T05:21:49.591Z",
       "updated": "2026-02-05T05:21:49.591Z"
+    },
+    {
+      "title": "DER and Weather Zone Forecasts in ADMS: Overview",
+      "slug": "der-and-weather-zone-forecasts-overview",
+      "path": "docs/adms/forecasting/der-and-weather-zone-forecasts-overview.md",
+      "description": "Overview of DER forecast categories in NMS, including weather affected DERs, utility scale DERs, and demand response groups, with configuration basics.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "DER forecasts",
+        "ADMS",
+        "NMS",
+        "distributed generation",
+        "forecast categories"
+      ],
+      "headings": [
+        "Overview",
+        "Weather Zones"
+      ],
+      "created": "2026-02-05T05:30:29.773Z",
+      "updated": "2026-02-05T05:30:29.773Z"
     },
     {
       "title": "DER Weather Zone Forecasts in NMS",
@@ -363,6 +403,26 @@
       ],
       "created": "2026-02-05T05:21:49.591Z",
       "updated": "2026-02-05T05:21:49.591Z"
+    },
+    {
+      "title": "Large Scale Utility DERs in ADMS",
+      "slug": "large-scale-utility-ders-in-adms",
+      "path": "docs/adms/forecasting/large-scale-utility-ders-in-adms.md",
+      "description": "Configuration and forecasting for large-scale utility DERs that are unaffected by weather, including diesel generators and batteries, with details on data storage and adapters.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "utility scale DERs",
+        "ADMS",
+        "NMS",
+        "diesel generator",
+        "battery forecast",
+        "PF_DER_FORECAST"
+      ],
+      "headings": [
+        "Large Scale Utility DERs"
+      ],
+      "created": "2026-02-05T05:30:29.773Z",
+      "updated": "2026-02-05T05:30:29.773Z"
     },
     {
       "title": "Large Scale Utility DER Forecasts in NMS",
