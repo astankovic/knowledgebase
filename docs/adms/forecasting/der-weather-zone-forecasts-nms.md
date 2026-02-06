@@ -33,3 +33,8 @@ During implementation, a utility needs to determine how they would like to use t
 Whichever method is used, the entire forecast for each zone must be provided with the same method (profiles or scaling factor) for each power source.
 
 Temperature forecasts can be provided for US customers using a product adapter that interfaces to a weather data server. Alternatively, an implementer could build a custom adapter that would provide temperature forecasts on a zone basis from an alternate resource such as utility specific forecasts (see the Oracle Utilities Network Management System Adapters Guide for more information).
+
+## Related
+
+See also - [Large Scale Utility DER Forecasts](/docs/adms/forecasting/der-large-scale-utility-forecasts-nms)
+- [DER Demand Response Groups](/docs/adms/forecasting/der-demand-response-groups-nms)
