@@ -2,63 +2,23 @@
   "name": "Knowledge Base",
   "description": "Technical documentation for JavaScript, Node.js, and ADMS (Advanced Distribution Management System)",
   "baseUrl": "https://raw.githubusercontent.com/astankovic/knowledgebase/main",
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-02-11T06:11:48.319Z",
   "docs": [
-    {
-      "title": "Knowledge Base Home",
-      "path": "/index.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/index.md",
-      "description": "Main landing page with overview of all documentation topics",
-      "category": "general",
-      "keywords": ["home", "index", "overview", "getting started"]
-    },
-    {
-      "title": "JavaScript Fundamentals",
-      "path": "/javascript-fundamentals.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/javascript-fundamentals.md",
-      "description": "Core JavaScript concepts including ES6+ features, closures, event loop, prototypal inheritance, and best practices",
-      "category": "javascript",
-      "keywords": ["javascript", "es6", "closures", "event loop", "promises", "async await", "destructuring", "arrow functions", "hoisting"]
-    },
-    {
-      "title": "Node.js Runtime Environment",
-      "path": "/nodejs-runtime.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/nodejs-runtime.md",
-      "description": "Node.js runtime covering event-driven architecture, NPM ecosystem, core modules, and performance considerations",
-      "category": "nodejs",
-      "keywords": ["nodejs", "node", "npm", "event loop", "streams", "http", "fs", "path", "rest api", "microservices"]
-    },
     {
       "title": "Introduction to ADMS in EcoStruxure",
       "path": "/docs/adms-introduction.md",
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms-introduction.md",
       "description": "Overview of Advanced Distribution Management System, key features, benefits for utilities, and getting started guide",
       "category": "adms",
-      "keywords": ["adms", "ecostruxure", "scada", "utilities", "grid", "outage management", "renewable energy"]
-    },
-    {
-      "title": "ADMS Documentation Index",
-      "path": "/docs/adms/index.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/index.md",
-      "description": "Index of all ADMS documentation sections",
-      "category": "adms",
-      "keywords": ["adms", "index", "documentation"]
-    },
-    {
-      "title": "ADMS System Overview",
-      "path": "/docs/adms/architecture/system-overview.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/system-overview.md",
-      "description": "High-level system architecture and design overview",
-      "category": "adms-architecture",
-      "keywords": ["adms", "architecture", "system", "overview", "design"]
-    },
-    {
-      "title": "ADMS Microservices Architecture",
-      "path": "/docs/adms/architecture/microservices.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/microservices.md",
-      "description": "Microservices architecture patterns and service design",
-      "category": "adms-architecture",
-      "keywords": ["adms", "microservices", "architecture", "services", "distributed"]
+      "keywords": [
+        "adms",
+        "ecostruxure",
+        "scada",
+        "utilities",
+        "grid",
+        "outage management",
+        "renewable energy"
+      ]
     },
     {
       "title": "ADMS Communication Patterns",
@@ -66,7 +26,13 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/communication-patterns.md",
       "description": "Inter-service communication patterns and messaging",
       "category": "adms-architecture",
-      "keywords": ["adms", "communication", "messaging", "patterns", "events"]
+      "keywords": [
+        "adms",
+        "communication",
+        "messaging",
+        "patterns",
+        "events"
+      ]
     },
     {
       "title": "ADMS Data Storage",
@@ -74,7 +40,27 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/data-storage.md",
       "description": "Data storage strategies and database architecture",
       "category": "adms-architecture",
-      "keywords": ["adms", "data", "storage", "database", "persistence"]
+      "keywords": [
+        "adms",
+        "data",
+        "storage",
+        "database",
+        "persistence"
+      ]
+    },
+    {
+      "title": "ADMS Microservices Architecture",
+      "path": "/docs/adms/architecture/microservices.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/microservices.md",
+      "description": "Microservices architecture patterns and service design",
+      "category": "adms-architecture",
+      "keywords": [
+        "adms",
+        "microservices",
+        "architecture",
+        "services",
+        "distributed"
+      ]
     },
     {
       "title": "ADMS Security Model",
@@ -82,47 +68,39 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/security-model.md",
       "description": "Security architecture, authentication, and authorization",
       "category": "adms-architecture",
-      "keywords": ["adms", "security", "authentication", "authorization", "access control"]
+      "keywords": [
+        "adms",
+        "security",
+        "authentication",
+        "authorization",
+        "access control"
+      ]
     },
     {
-      "title": "ADMS Integrations Index",
-      "path": "/docs/adms/integrations/index.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/index.md",
-      "description": "Overview of ADMS integration capabilities",
-      "category": "adms-integrations",
-      "keywords": ["adms", "integrations", "index"]
+      "title": "ADMS System Overview",
+      "path": "/docs/adms/architecture/system-overview.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/architecture/system-overview.md",
+      "description": "High-level system architecture and design overview",
+      "category": "adms-architecture",
+      "keywords": [
+        "adms",
+        "architecture",
+        "system",
+        "overview",
+        "design"
+      ]
     },
     {
-      "title": "ADMS GIS Integration",
-      "path": "/docs/adms/integrations/gis-integration.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/gis-integration.md",
-      "description": "Geographic Information System integration for spatial data",
-      "category": "adms-integrations",
-      "keywords": ["adms", "gis", "geographic", "spatial", "mapping", "integration"]
-    },
-    {
-      "title": "ADMS SCADA Integration",
-      "path": "/docs/adms/integrations/scada-integration.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/scada-integration.md",
-      "description": "SCADA system integration for real-time monitoring and control",
-      "category": "adms-integrations",
-      "keywords": ["adms", "scada", "real-time", "monitoring", "control", "integration"]
-    },
-    {
-      "title": "ADMS REST API",
-      "path": "/docs/adms/integrations/rest-api.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/rest-api.md",
-      "description": "REST API endpoints and integration patterns",
-      "category": "adms-integrations",
-      "keywords": ["adms", "rest", "api", "http", "endpoints", "integration"]
-    },
-    {
-      "title": "ADMS Message Bus Integration",
-      "path": "/docs/adms/integrations/message-bus.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/message-bus.md",
-      "description": "Message bus and event-driven integration patterns",
-      "category": "adms-integrations",
-      "keywords": ["adms", "message bus", "events", "pub sub", "integration"]
+      "title": "ADMS Documentation Index",
+      "path": "/docs/adms/index.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/index.md",
+      "description": "Index of all ADMS documentation sections",
+      "category": "adms",
+      "keywords": [
+        "adms",
+        "index",
+        "documentation"
+      ]
     },
     {
       "title": "ADMS File Integrations",
@@ -130,15 +108,86 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/file-integrations.md",
       "description": "File-based data exchange and import/export capabilities",
       "category": "adms-integrations",
-      "keywords": ["adms", "file", "import", "export", "csv", "xml", "integration"]
+      "keywords": [
+        "adms",
+        "file",
+        "import",
+        "export",
+        "csv",
+        "xml",
+        "integration"
+      ]
     },
     {
-      "title": "ADMS UI Index",
-      "path": "/docs/adms/ui/index.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/index.md",
-      "description": "Overview of ADMS user interface documentation",
-      "category": "adms-ui",
-      "keywords": ["adms", "ui", "user interface", "index"]
+      "title": "ADMS GIS Integration",
+      "path": "/docs/adms/integrations/gis-integration.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/gis-integration.md",
+      "description": "Geographic Information System integration for spatial data",
+      "category": "adms-integrations",
+      "keywords": [
+        "adms",
+        "gis",
+        "geographic",
+        "spatial",
+        "mapping",
+        "integration"
+      ]
+    },
+    {
+      "title": "ADMS Integrations Index",
+      "path": "/docs/adms/integrations/index.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/index.md",
+      "description": "Overview of ADMS integration capabilities",
+      "category": "adms-integrations",
+      "keywords": [
+        "adms",
+        "integrations",
+        "index"
+      ]
+    },
+    {
+      "title": "ADMS Message Bus Integration",
+      "path": "/docs/adms/integrations/message-bus.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/message-bus.md",
+      "description": "Message bus and event-driven integration patterns",
+      "category": "adms-integrations",
+      "keywords": [
+        "adms",
+        "message bus",
+        "events",
+        "pub sub",
+        "integration"
+      ]
+    },
+    {
+      "title": "ADMS REST API",
+      "path": "/docs/adms/integrations/rest-api.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/rest-api.md",
+      "description": "REST API endpoints and integration patterns",
+      "category": "adms-integrations",
+      "keywords": [
+        "adms",
+        "rest",
+        "api",
+        "http",
+        "endpoints",
+        "integration"
+      ]
+    },
+    {
+      "title": "ADMS SCADA Integration",
+      "path": "/docs/adms/integrations/scada-integration.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/integrations/scada-integration.md",
+      "description": "SCADA system integration for real-time monitoring and control",
+      "category": "adms-integrations",
+      "keywords": [
+        "adms",
+        "scada",
+        "real-time",
+        "monitoring",
+        "control",
+        "integration"
+      ]
     },
     {
       "title": "ADMS Client Architecture",
@@ -146,23 +195,13 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/client-architecture.md",
       "description": "Client-side architecture and frontend design patterns",
       "category": "adms-ui",
-      "keywords": ["adms", "client", "frontend", "architecture", "ui"]
-    },
-    {
-      "title": "ADMS Network Visualization",
-      "path": "/docs/adms/ui/network-visualization.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/network-visualization.md",
-      "description": "Network topology visualization and geospatial display",
-      "category": "adms-ui",
-      "keywords": ["adms", "visualization", "network", "topology", "map", "geospatial"]
-    },
-    {
-      "title": "ADMS Operations Modules",
-      "path": "/docs/adms/ui/operations-modules.md",
-      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/operations-modules.md",
-      "description": "Operational modules for grid management and control",
-      "category": "adms-ui",
-      "keywords": ["adms", "operations", "modules", "control", "management"]
+      "keywords": [
+        "adms",
+        "client",
+        "frontend",
+        "architecture",
+        "ui"
+      ]
     },
     {
       "title": "ADMS Configuration Management",
@@ -170,7 +209,55 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/configuration-management.md",
       "description": "System configuration and settings management",
       "category": "adms-ui",
-      "keywords": ["adms", "configuration", "settings", "management", "admin"]
+      "keywords": [
+        "adms",
+        "configuration",
+        "settings",
+        "management",
+        "admin"
+      ]
+    },
+    {
+      "title": "ADMS UI Index",
+      "path": "/docs/adms/ui/index.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/index.md",
+      "description": "Overview of ADMS user interface documentation",
+      "category": "adms-ui",
+      "keywords": [
+        "adms",
+        "ui",
+        "user interface",
+        "index"
+      ]
+    },
+    {
+      "title": "ADMS Network Visualization",
+      "path": "/docs/adms/ui/network-visualization.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/network-visualization.md",
+      "description": "Network topology visualization and geospatial display",
+      "category": "adms-ui",
+      "keywords": [
+        "adms",
+        "visualization",
+        "network",
+        "topology",
+        "map",
+        "geospatial"
+      ]
+    },
+    {
+      "title": "ADMS Operations Modules",
+      "path": "/docs/adms/ui/operations-modules.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/operations-modules.md",
+      "description": "Operational modules for grid management and control",
+      "category": "adms-ui",
+      "keywords": [
+        "adms",
+        "operations",
+        "modules",
+        "control",
+        "management"
+      ]
     },
     {
       "title": "ADMS Performance Optimization",
@@ -178,7 +265,120 @@
       "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/docs/adms/ui/performance-optimization.md",
       "description": "Performance tuning and optimization strategies",
       "category": "adms-ui",
-      "keywords": ["adms", "performance", "optimization", "tuning", "speed"]
+      "keywords": [
+        "adms",
+        "performance",
+        "optimization",
+        "tuning",
+        "speed"
+      ]
+    },
+    {
+      "title": "Knowledge Base Home",
+      "path": "/index.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/index.md",
+      "description": "Main landing page with overview of all documentation topics",
+      "category": "general",
+      "keywords": [
+        "home",
+        "index",
+        "overview",
+        "getting started"
+      ]
+    },
+    {
+      "title": "JavaScript Fundamentals",
+      "path": "/javascript-fundamentals.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/javascript-fundamentals.md",
+      "description": "Core JavaScript concepts including ES6+ features, closures, event loop, prototypal inheritance, and best practices",
+      "category": "javascript",
+      "keywords": [
+        "javascript",
+        "es6",
+        "closures",
+        "event loop",
+        "promises",
+        "async await",
+        "destructuring",
+        "arrow functions",
+        "hoisting"
+      ]
+    },
+    {
+      "title": "Node.js Runtime Environment",
+      "path": "/nodejs-runtime.md",
+      "url": "https://raw.githubusercontent.com/astankovic/knowledgebase/main/nodejs-runtime.md",
+      "description": "Node.js runtime covering event-driven architecture, NPM ecosystem, core modules, and performance considerations",
+      "category": "nodejs",
+      "keywords": [
+        "nodejs",
+        "node",
+        "npm",
+        "event loop",
+        "streams",
+        "http",
+        "fs",
+        "path",
+        "rest api",
+        "microservices"
+      ]
+    },
+    {
+      "title": "Demand Response Groups in ADMS",
+      "slug": "demand-response-groups-in-adms",
+      "path": "docs/adms/forecasting/demand-response-groups-in-adms.md",
+      "description": "Setup and forecasting for demand response groups in NMS, including mapping resources, profiles, and integration with external systems via adapters.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "demand response groups",
+        "DR profiles",
+        "ADMS",
+        "PF_DEMAND_RESPONSE_FORECAST",
+        "NMS"
+      ],
+      "headings": [
+        "Demand Response Groups"
+      ],
+      "created": "2026-02-11T06:11:48.319Z",
+      "updated": "2026-02-11T06:11:48.319Z"
+    },
+    {
+      "title": "DER and Weather Zone Forecasts Overview in ADMS",
+      "slug": "der-and-weather-zone-forecasts-overview",
+      "path": "docs/adms/forecasting/der-and-weather-zone-forecasts-overview.md",
+      "description": "Overview of DER forecast categories in NMS, including weather affected DERs, utility scale DERs, and demand response groups, with configuration basics.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "DER forecasts",
+        "NMS",
+        "distributed generation",
+        "ADMS"
+      ],
+      "headings": [
+        "Overview",
+        "Weather Zones"
+      ],
+      "created": "2026-02-11T06:11:48.319Z",
+      "updated": "2026-02-11T06:11:48.319Z"
+    },
+    {
+      "title": "Large Scale Utility DERs in ADMS",
+      "slug": "large-scale-utility-ders-in-adms",
+      "path": "docs/adms/forecasting/large-scale-utility-ders-in-adms.md",
+      "description": "Configuration and forecasting for large scale utility DERs that are unaffected by weather, including diesel generators and batteries, with details on database tables and adapters.",
+      "category": "adms/forecasting",
+      "keywords": [
+        "utility scale DERs",
+        "ADMS",
+        "diesel generator",
+        "battery forecast",
+        "PF_DER_FORECAST"
+      ],
+      "headings": [
+        "Large Scale Utility DERs"
+      ],
+      "created": "2026-02-11T06:11:48.319Z",
+      "updated": "2026-02-11T06:11:48.319Z"
     }
   ],
   "categories": [
